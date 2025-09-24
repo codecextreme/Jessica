@@ -1,0 +1,68 @@
+.patient-card {
+  width: 220px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  color: #072635;
+}
+
+.patient-card .patient-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.patient-card .patient-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 20px;
+}
+
+.patient-card .info-item {
+  display: flex;
+  text-align: left;
+  margin: 14px 0;
+  gap: 10px;
+}
+
+.patient-card .icon {
+  font-size: 14px;
+  margin-right: 10px;
+  color: #072635;
+  background: #f0f4f7;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.patient-card .label {
+  font-size: 10px;
+  color: #555;
+}
+
+.patient-card .value {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 2px;
+  color: #072635;
+}
+
+.show-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #01F0D0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background 0.3s ease;
+}
+
+.show-button:hover {
+  background: #17c2a0;
+}
