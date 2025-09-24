@@ -36,9 +36,13 @@ export default function Patients() {
 
   return (
     <div className="patients">
+      <div className="navbar">
       <Navbar />
+      </div>
+      <div style={{display:'flex'}}>
+        <div className="sidebar">
       <Sidebar data={patients} onSelect={setSelectedPatient} />
-
+        </div>
       <div className="main-container">
         <div className="history-box">
           <div className="diagnosis-history">
@@ -106,6 +110,7 @@ export default function Patients() {
             <Lab data={selectedPatient?.lab_results} />
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
