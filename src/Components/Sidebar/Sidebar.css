@@ -1,6 +1,6 @@
 .sidebar-container {
   width: 100%;
-  max-height: 52rem;
+  max-height: 65vw;
   border-radius: clamp(8px, 0.6vw, 16px);
   background-color: #ffffff;
   font-family: sans-serif;

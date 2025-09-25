@@ -92,7 +92,7 @@
 .profile-box {
   display: flex;
   flex-direction: column;
-  max-width: 22%;
+  max-width: 25%;
 }
 
 .diagnostic-list {

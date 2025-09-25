@@ -1,18 +1,18 @@
 .navbar {
-  width: 93.9vw;
+  width: 100%;
   height: 5vw;
   border-radius: 50px;
   background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.2rem;
 }
 
 /* Logo scales slightly but capped */
 .logo-img {
   width: clamp(8rem, 10vw, 12rem);
   height: auto;
+  margin-left: 1.5rem;
 }
 
 .nav-links ul {
@@ -53,6 +53,7 @@
   gap: clamp(0.3rem, 0.5vw, 0.6rem);
   justify-content: center;
   align-items: center;
+  margin-right: 1.5rem;
 }
 
 .dr-profile p {

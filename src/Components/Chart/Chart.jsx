@@ -44,7 +44,7 @@ export default function BloodPressureChart({ data }) {
         padding: "1.25rem",
         borderRadius: "12px",
         width: "100%",
-        height: "50vh",
+        height: "23vw",
         margin: "auto",
         fontFamily: "Manrope, sans-serif",
         boxSizing: "border-box",
