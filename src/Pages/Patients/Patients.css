@@ -21,20 +21,20 @@
 }
 
 .sidebar {
-  flex: 1 1 250px; /* min 250px, grows with space */
+  flex: 1 1 400px; /* min 250px, grows with space */
   max-width: 20%;
 }
 
 .history-box {
-  flex: 1 1 600px;
+  flex: 1 1 700px;
   max-width: 75%;
   margin-left: 1rem;
 }
 
 .diagnosis-history {
-  width: 100%;
+  max-width: 100%;
   border-radius: 12px;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 0.7rem;
 }
 
@@ -48,7 +48,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 0.6rem;
-  gap: 1rem;
+  gap: 0.7rem;
 }
 
 .rate-box p {
@@ -64,7 +64,7 @@
 .box1,
 .box2,
 .box3 {
-  flex: 1 1 220px;
+  flex: 1 1 200px;
   border-radius: 12px;
   padding: 0.7rem;
 }
@@ -92,12 +92,12 @@
 .profile-box {
   display: flex;
   flex-direction: column;
-  width: 22%;
+  max-width: 22%;
 }
 
 .diagnostic-list {
   width: 100%;
-  background-color: #fff;
+  background-color: #ea3535;
   margin-top: 20px;
   border-radius: 12px;
 }
